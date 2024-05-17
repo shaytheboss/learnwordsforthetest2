@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  /*align-items: center; */
+  justify-content: center;
+  height: 10vh;
+  background-color: #FFFFFF;
+}
+
+.button-3d {
+    padding: 10px 20px;
+    color: white; /* White text */
+    background-color: #007BFF; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px #0056b3; /* Shadow to create the 3D effect */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button-3d:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+    box-shadow: 0 2px #003a75; /* Adjust shadow to make it look like the button is being pressed */
+}
+
+.button-3d:active {
+    transform: translateY(4px); /* Moves the button down when clicked */
+    box-shadow: 0 1px #003a75; /* Reduce shadow to simulate button being pressed */
+}
+
